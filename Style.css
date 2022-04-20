@@ -127,6 +127,8 @@ navbar{
         height: 100%;
         width: 30%;
         background-color: #cb3647;
+/*Quando a página é aberta através de um celular e class "categorias-navbar" ocupa todo o viewport porque está pegando como parâmetro
+ o width da <ul> da class "categorias-navbar" */
     }
 }
 /*ENTENDER MELHOR!*/
