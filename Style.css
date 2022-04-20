@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+navbar{
+    background: linear-gradient(to right, #cf0d0d -100%, #cc5671);
+    width: 100%;
+    display: flex;
+    height: 80px;
+}
+
+.homeNavbar{
+    width: 20%;
+}
+
+.homeNavbar a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 8%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 700;
+}
+
+
+.seacher{
+    display: flex;
+    width: 70%;
+    height: 75%;
+    align-items: center;
+}
+
+#barraDeBusca{
+    width: 55%;
+    height: 40%;
+    padding: auto;
+}
+
+#pesquisar{
+    display: flex;
+    margin-left: -11%;
+}
+
+button{
+    background-color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #be2d2d;
+}
+
+.clicavelNavbar{
+    display:flex;
+    align-items: center;
+    width: 40%;
+    height: 75%;
+}
+
+.clicavelNavbar a{
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 100%;
+    font-size: 80%;
+    padding: 0  ;
+}
+
+.categoriasNavba{
+   height: 2%;
+}
+
+ul{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: -2.2%;
+}
+
+li{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 80%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+section{
+    background-color: rgb(254, 247, 247);
+    height: 100%;
+}
+
+.carrosel{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.carrosel img{
+    height: 394px;
+    width: 1500px;
+}
+
+
+.conteudo{
+    width: 100%;
+    height: 100%;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.cards img{
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 0 5px rgb(201, 201, 201);
+
+}
+
+.valoresDosProdutos{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.valoresDosProdutos ul li{
+    margin: 0 10px 4px 10px;
+    width: 200px;
+    color: black;
+}
+
+.descricaoDeProdutos{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.descricaoDeProdutos ul li{
+    margin: 0 10px 4px 10px; 
+    width: 200px;
+    color: black;
+}
+
+.cashback{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.cashback ul li{
+    margin: 0 10px 4px 10px; 
+    width: 200px;
+    color: green;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.marcas{
+    display: flex;
+    justify-content: left;
+    margin-left: 14.5%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.linha-horizontal{
+    display: flex;
+    justify-content: center;
+    margin-left: 220px;
+    margin-bottom: 10px;
+    width:1080px;
+    border: 1px solid rgb(232, 227, 227);
+    box-shadow: 0 0 15px rgb(201, 201, 201);
+}
+
+.cardsMarcas{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.cardsMarcas img{
+    margin: 20px;
+    width: 120px;
+    border-radius: 100px;
+    box-shadow: 0 0 5px rgb(201, 201, 201);
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.banner img{
+    margin: 40px;
+    box-shadow: 0 0 15px rgb(201, 201, 201);
+    width: 500px;
+    height: 300px;
+}
+
+.categorias{
+    display: flex;
+    justify-content: center;
+}
+
+.categorias img{
+    display: flex;
+    justify-content: center;
+    margin: 0; 
+    width: 154px;
+    height: 154px;
+    box-shadow: 0 0 5px rgb(201, 201, 201);
+}
+
+footer {
+    background: linear-gradient(to right, #be2d2d, #FF416C);
+    bottom: 0;
+    display: flex;
+    justify-content: end;
+    height: 68.5px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/*
+#homeFooter{
+    display: flex;
+    position: fixed;
+    left: 6%;
+    bottom: 3%;
+}
+*/
+
+#homeFooter a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 12%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 700;
+}

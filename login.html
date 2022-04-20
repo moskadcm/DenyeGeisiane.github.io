@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e Registre-se</title>
+    <link rel="stylesheet" href="style-login.css">
+</head>
+
+<body>
+    <h2>Para iniciar suas compras efetue  login ou cadastre-se</h2>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Crie sua conta</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>ou use seu e-mail para cadastrar-se</span>
+			<input type="text" placeholder="Nome Completo" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Senha" />
+            <input type="text" placeholder="CPF ou CNPJ" />
+            <input type="text" placeholder="Comprar ou Vender" />
+			<button>Registrar</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Login</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>ou use sua conta</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Senha" />
+			<a href="#">Esqueci minha senha?</a>
+			<button>Login</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Seja bem-vindo!</h1>
+				<p>Já possuo conta e quero acessá-la!</p>
+				<button class="ghost" id="signIn">Login</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Seja bem-vindo</h1>
+				<p>Ainda não possui conta?</p>
+				<button class="ghost" id="signUp">Cadastre-se</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+    <div id="logomarcaRodape">
+		<!-- Adicionei código aqui para tornar clicável e ir para a página home (Geisiane) -->
+		<a href="index.html">
+        <img src="" alt>LOGOMARCA OU RETORNAR A HOME</img>
+		</a>
+    </div>
+    <div>
+        <ul>
+            <li>CNPJ: 00.000.000/00001-00</li>
+            <li>Grupo John Doe</li>
+            <li>Avenida Doe, nº 000, Bairro John Doe, cidade, estado-BR.</li>
+        </ul>
+        <ul>
+            <li>Fale conosco:</li>
+            <li>SAC (00) 0000-0000 (Atendimento 24h)</li>
+            <li>Email: faleconosco@ouvidoria.com</li>
+        </ul>
+    </div>
+</footer>
+</body>
+<script src="app-login.js"></script>
+</html>
