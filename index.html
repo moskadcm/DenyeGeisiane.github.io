@@ -7,24 +7,51 @@
 </head>
 <body>
     <header>
-        <navbar>
-            <div class="homeNavbar">
-                <a href="index.html" id="home">LOGOMARCA</a>
+        <navbar class="containt-navbar" id="containtnavbar">
+            <div class="itens-navbar" id="itensnavbar">
+                <div class="home-navbar">Home</div>
+                <button onclick="semNome()" class="item-hamburguer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                </button>
+                <div class="pesquisa-navbar">
+                    
+                    <div class="div-pesquisar">
+                        <div class="imput-pesquisar">
+                            <!-- (Resolver posteriormente)
+                            <input type="text" id="barraDeBusca" type="text" placeholder="Buscar produtos">
+                            -->
+                        </div>
+                        <div class="button-pesquisar">
+                            <!-- (Resolver posteriormente)
+                            <button type="submit"></button>
+                            -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="botoes-navbar" id="botoesnavbar">
+                    <ul class="botoes-navbar" id="botoesnavbar">
+                            <button class="item-hamburguer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </button>
+                        <li><a href="">Login</a></li>
+                        <li><a href="">Seja um vendedor</a></li>
+                        <li><a href="">Carrinho</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="seacher">
-                <input id="barraDeBusca" type="text" placeholder="Buscar produtos">
-                <button id="pesquisar" type="submit">Pesquisar</button>
-            </div>
-            <div class="clicavelNavbar">
-                <a href="login.html" id="login" >Login</a>
-                <a href="" id="vendedor" >Seja um vendedor</a>
-                <a href="" id="carrinho" >Carrinho</a>
-            </div>
-        </navbar>
-        <main>
-            <div class="categoriasNavbar">
+            <div class="categorias-navbar">
                 <ul>
-                    <li>Vestuário</li>
+                    <button onclick="semNome()" class="...">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                          </svg>
+                    </button>
+                    <div><li>Vestuário</li></div>
                     <li>Smartphones</li>
                     <li>TVs</li>
                     <li>Noteooks</li>
@@ -38,13 +65,12 @@
                     <li>Smartphones</li>
                     <li>Vestuário</li>
                     <li>Games</li>
-                    <li>Maquiagens</li>
-                    <li>Smartphones</li>
-                    <li>Outras categorias</li>
+                    <li>Livros</li>
+                    <li>Games</li>
+                    <div><li>Outras categorias</li></div>
                 </ul>
             </div>
-        </main>
-
+        </navbar>
     </header>
     <section class="carrosel">
         <img src="Card.jpg">
